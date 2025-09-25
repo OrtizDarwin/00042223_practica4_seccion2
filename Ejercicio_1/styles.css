@@ -1,0 +1,14 @@
+:root{
+--bg:#d51111;
+--panel:#680cfdbc;
+--border:#331f37;
+--text:#e5e7eb;
+--accent:#00ff0d; 
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,Segoe UI,Roboto,Ubuntu,Helvetica,Arial}
+.container{max-width:800px;margin:auto;padding:24px}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:16px}
+button{background:var(--accent);border:none;color:#0a0a0a;font-weight:700;padding:10px 14px;border-radius:10px;cursor:pointer}
+button:hover{filter:brightness(1.1)}
+.output{margin-top:12px;white-space:pre-wrap}
