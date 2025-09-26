@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ejercicio Final – Guia 4</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <main class="container">
+    <h1>Ejercicio Final</h1>
+    <p>Selecciona el dia y escribe un mensaje de recordatorio. El resultado se mostrara abajo.</p>
+
+    <section class="card">
+      <form id="formRecordatorio">
+        <label for="dia">Dia de la semana</label>
+        <select id="dia" required>
+          <option value="">Selecciona…</option>
+          <option>Lunes</option>
+          <option>Martes</option>
+          <option>Miércoles</option>
+          <option>Miercoles</option>
+          <option>Jueves</option>
+          <option>Viernes</option>
+          <option>Sábado</option>
+          <option>Sabado</option>
+          <option>Domingo</option>
+        </select>
+
+        <label for="mensaje">Mensaje personalizado</label>
+        <input id="mensaje" type="text" placeholder="Ej: No olvidar documentos" required/>
+
+        <button type="submit">Recordar</button>
+      </form>
+
+      <div id="resultado" class="output" aria-live="polite">—</div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
