@@ -1,0 +1,8 @@
+@import url("../Ejercicio_1/styles.css");
+
+label{display:block;margin-top:.5rem}
+select,input{
+  padding:8px;border-radius:8px;border:1px solid var(--border);
+  background:#0b1020;color:var(--text)
+}
+button{margin-top:.75rem}
